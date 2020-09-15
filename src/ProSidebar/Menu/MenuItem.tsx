@@ -10,6 +10,7 @@ export interface Props {
   suffix?: React.ReactNode;
   firstchild?: boolean;
   popperarrow?: boolean;
+  idMenuItem?: string;
 }
 
 const MenuItem: React.ForwardRefRenderFunction<unknown, Props> = (
