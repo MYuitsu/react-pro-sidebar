@@ -1,5 +1,5 @@
 {
-  "name": "react-pro-sidebar",
+  "name": "@myuitsu/react-pro-sidebar",
   "version": "0.4.4",
   "description": "React sidebar library with dropdown menus and unlimit number of nested submenus",
   "main": "dist/index.js",
@@ -7,8 +7,12 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/azouaoui-med/react-pro-sidebar.git",
-  "author": "Mohamed Azouaoui <azouaoui.med@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:myuitsugi/react-pro-sidebar.git",
+    "directory": "@myuitsu/react-pro-sidebar"
+  },
+  "author": "Nguyen Thai Duy <nguyenthaiduy277@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
@@ -84,5 +88,6 @@
     "classnames": "^2.2.6",
     "react-slidedown": "^2.4.5",
     "resize-observer-polyfill": "^1.5.1"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/myuitsu" }
 }
